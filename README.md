@@ -1,1 +1,1 @@
-# the-way-of-it
+# the-way-of-IT
