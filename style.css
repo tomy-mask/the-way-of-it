@@ -74,14 +74,17 @@ h1 {
 /* MAIN */
 
 /* DCI */
-.main-dci {
+#main-dci {
   /* border: 2px solid red; */
   min-height: 100vh;
   background-image: url(./img/dark-blue.jpg);
   background-position: center;
   background-size: cover;
 }
-.main-dci h2 {
+
+
+
+#main-dci h2 {
   font-weight: bold;
   font-size: 70px;
   display: flex;
@@ -91,13 +94,31 @@ h1 {
   text-shadow: 2px 5px #0b1587;
 }
 
-.main-dci .dci-container {
+#main-dci .dci-container {
   /* border: 2px solid blue; */
   min-height: 80vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.card
+{
+  border-radius: 10px;
+  width: 270px;
+  height: 250px;
+  padding: 2px;
+  margin: 20px 15px 10px 15px;
+  text-align: center;
+  
+}
+
+.card .dci-logo
+{
+  position: relative;
+  top: 2px;
+  left: 90px;
 }
 
 .card-or,
@@ -116,27 +137,32 @@ h1 {
   margin: 20px 15px 10px 15px;
   text-align: center;
 }
-.card-or #dci-logo,
-.card-web #dci-logo,
-.card-aws #dci-logo,
-.card-py #dci-logo,
-.card-om #dci-logo,
-.card-hr #dci-logo,
-.card-java #dci-logo,
-.card-sc #dci-logo {
+
+
+
+
+
+.card-or .dci-logo,
+.card-web .dci-logo,
+.card-aws .dci-logo,
+.card-py .dci-logo,
+.card-om .dci-logo,
+.card-hr .dci-logo,
+.card-java .dci-logo,
+.card-sc .dci-logo {
   position: relative;
   top: 2px;
   left: 90px;
 }
 
-.card-or #click-arrow,
-.card-web #click-arrow,
-.card-aws #click-arrow,
-.card-py #click-arrow,
-.card-om #click-arrow,
-.card-hr #click-arrow,
-.card-java #click-arrow,
-.card-sc #click-arrow {
+.card-or .click-arrow,
+.card-web .click-arrow,
+.card-aws .click-arrow,
+.card-py .click-arrow,
+.card-om .click-arrow,
+.card-hr .click-arrow,
+.card-java .click-arrow,
+.card-sc .click-arrow {
   /* border: 2px solid white; */
   position: relative;
   right: 20px;
@@ -340,6 +366,10 @@ h1 {
   background-image: url(./img/slightly-blue-2.jpg);
   background-position: center;
   background-size: cover;
+}
+
+iframe{
+  border:none;
 }
 
 .main-youtube h2 {
