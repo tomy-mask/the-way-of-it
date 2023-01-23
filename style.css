@@ -74,7 +74,7 @@ h1 {
 /* MAIN */
 
 /* DCI */
-#main-dci {
+.main-dci {
   /* border: 2px solid red; */
   min-height: 100vh;
   background-image: url(./img/dark-blue.jpg);
@@ -82,9 +82,15 @@ h1 {
   background-size: cover;
 }
 
+.main-dci ul {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-
-#main-dci h2 {
+#dci-id h2 {
   font-weight: bold;
   font-size: 70px;
   display: flex;
@@ -94,7 +100,7 @@ h1 {
   text-shadow: 2px 5px #0b1587;
 }
 
-#main-dci .dci-container {
+#dci-id .dci-container {
   /* border: 2px solid blue; */
   min-height: 80vh;
   display: flex;
@@ -103,7 +109,7 @@ h1 {
   flex-wrap: wrap;
 }
 
-.card
+/* .card
 {
   border-radius: 10px;
   width: 270px;
@@ -119,7 +125,7 @@ h1 {
   position: relative;
   top: 2px;
   left: 90px;
-}
+} */
 
 .card-or,
 .card-web,
@@ -137,10 +143,6 @@ h1 {
   margin: 20px 15px 10px 15px;
   text-align: center;
 }
-
-
-
-
 
 .card-or .dci-logo,
 .card-web .dci-logo,
@@ -368,8 +370,8 @@ h1 {
   background-size: cover;
 }
 
-iframe{
-  border:none;
+iframe {
+  border: none;
 }
 
 .main-youtube h2 {
